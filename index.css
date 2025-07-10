@@ -29,7 +29,42 @@ nav ul{
     padding: 10px 25px;
     border-radius: 10px;
     cursor: pointer;
+    font-size: medium;
 }
 .btn:hover{
     background-color: rgb(212, 88, 88);
+}
+/*banner-section*/
+.banner-section h1{
+font-weight: 800;
+font-size: 50px;
+color: rgba(37, 36, 50, 1);
+padding:50px 320px 10px ;
+align-items: center;
+text-align: center;
+}
+.btn2{
+     background-color:rgba(78, 71, 255, 1) ;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 550px;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    text-decoration: none;
+
+}
+.btn2:hover{background-color: rgb(241, 80, 180);}
+.heading{
+
+    background-image: url(images/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1260px;
+    
 }
