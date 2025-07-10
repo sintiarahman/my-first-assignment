@@ -1,0 +1,35 @@
+/*nav styles*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 200px;
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 50px;
+    color: rgba(78, 71, 255, 1);
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 50px;
+}
+nav ul{
+    display: flex;
+}
+.btn{
+    background-color:rgba(78, 71, 255, 1) ;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(212, 88, 88);
+}
