@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(244, 248, 250);
+}
+
 /*nav styles*/
 nav{
     display: flex;
@@ -66,5 +70,68 @@ text-align: center;
     background-size: cover;
     height: 500px;
     width: 1260px;
+    
+}
+/*main section*/
+.action{
+    display: flex;
+    height: 330px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 30px;
+    justify-content: space-between;
+    
+}
+.action-section h2{
+padding:40px  0 0 0;
+font-size:30px;
+font-weight: 800;
+text-align: left;
+}
+.pragraph{
+    color: rgba(37, 36, 50, 0.5);
+text-align: left;
+}
+.btn3{
+    background-color: rgba(78, 71, 255, 1);
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+}
+.btn3:hover{
+    background-color: rgb(192, 224, 75);
+}
+img{
+    border-radius: 20px;
+}
+/*productive-user-section*/
+.user-section{
+    background-color: rgb(213, 223, 228);
+    height: 230px;
+    width: 900px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.user-section h1{
+    text-align: center;
+    align-items: center;
+    font-size:30px;
+}
+.rated{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rated h1{
+    font-size: 50px;
+color:rgba(78, 71, 255, 1);
+}
+.rated p{
+    color:rgb(43, 41, 41);
+    text-align:center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
     
 }
